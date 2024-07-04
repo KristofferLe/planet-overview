@@ -7,6 +7,7 @@ const StyledPageContainer = styled.section`
   align-items: center;
   justify-content: space-around;
   height: 100%;
+  width: 100%;
 
   @media screen and (min-width: 1024px) {
     height: 950px;
@@ -64,11 +65,11 @@ const StyledPageContainer = styled.section`
       gap: 32px;
       align-items: center;
       justify-content: center;
-      width: 210%;
+      width: 150%;
       text-align: center;
 
       p {
-        width: 90%;
+        width: 300px;
         transform: translateY(-10px);
       }
     }

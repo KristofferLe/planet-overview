@@ -1,6 +1,6 @@
 import React from "react";
 import PlanetData from "../../assets/data/data.json";
-import PageContainer from "../../assets/styled-components/pageContainer/pageContainer";
+import PageContainer from "../styled-components/pageContainer/pageContainer";
 import { usePlanetInfo } from "../contexts/planetInfoContext";
 import earth from "../images/earth.svg";
 import earthStructure from "../images/earth-structure.svg";
