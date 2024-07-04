@@ -64,8 +64,8 @@ const StyledPageContainer = styled.section`
       flex-direction: column;
       gap: 32px;
       align-items: center;
-      justify-content: center;
-      width: 120%;
+      justify-content: start;
+      width: 100%;
       text-align: center;
 
       p {
