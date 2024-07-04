@@ -3,9 +3,9 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const navLinks = [
-  { name: "Mercury", path: "/", value: "mercury", color: "#419EBB" },
+  { name: "Mercury", path: "/mercury", value: "mercury", color: "#419EBB" },
   { name: "Venus", path: "/venus", value: "venus", color: "#EDA249" },
-  { name: "Earth", path: "/earth", value: "earth", color: "#6F2ED6" },
+  { name: "Earth", path: "/", value: "earth", color: "#6F2ED6" },
   { name: "Mars", path: "/mars", value: "mars", color: "#D14C32" },
   { name: "Jupiter", path: "/jupiter", value: "jupiter", color: "#D83A34" },
   { name: "Saturn", path: "/saturn", value: "saturn", color: "#CD5120" },
