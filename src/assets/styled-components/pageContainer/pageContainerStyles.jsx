@@ -65,7 +65,7 @@ const StyledPageContainer = styled.section`
       gap: 32px;
       align-items: center;
       justify-content: center;
-      width: 150%;
+      width: 120%;
       text-align: center;
 
       p {
