@@ -65,11 +65,11 @@ const StyledPageContainer = styled.section`
       gap: 32px;
       align-items: center;
       justify-content: center;
-      width: 210%;
+      width: 150%;
       text-align: center;
 
       p {
-        width: 100%;
+        width: 400px;
         transform: translateY(-10px);
       }
     }
