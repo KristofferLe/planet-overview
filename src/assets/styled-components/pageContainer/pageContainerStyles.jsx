@@ -61,11 +61,11 @@ const StyledPageContainer = styled.section`
   @media screen and (max-width: 768px) {
     .overview-text {
       display: flex;
+      border: solid 1px red;
       flex-direction: column;
       gap: 32px;
       align-items: center;
       justify-content: center;
-      width: 150%;
       text-align: center;
 
       p {
