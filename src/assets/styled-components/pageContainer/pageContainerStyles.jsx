@@ -8,10 +8,7 @@ const StyledPageContainer = styled.section`
   justify-content: space-around;
   height: 100%;
   width: 100%;
-
-  @media screen and (min-width: 1024px) {
-    height: 100vh;
-  }
+  height: 850px;
 
   .image-container {
     height: 450px;
