@@ -3,8 +3,8 @@ import React, { createContext, useState, useContext } from "react";
 export const ActivePlanetContext = createContext();
 
 export default function ActivePlanetProvider({ children }) {
-  const [activePlanet, setActivePlanet] = useState("mercury");
-  const [activePlanetColor, setActivePlanetColor] = useState("#419EBB");
+  const [activePlanet, setActivePlanet] = useState("earth");
+  const [activePlanetColor, setActivePlanetColor] = useState("#6F2ED6");
 
   const setActivePlanetAndColor = (planet, color) => {
     setActivePlanet(planet);
