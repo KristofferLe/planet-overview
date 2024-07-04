@@ -21,9 +21,9 @@ function App() {
       <Header />
       <MobileMenu isMenuOpen={isMenuOpen} />
       <Routes>
+        <Route path="/" element={<Earth />} />
         <Route path="/mercury" element={<Mercury />} />
         <Route path="/venus" element={<Venus />} />
-        <Route path="/" element={<Earth />} />
         <Route path="/mars" element={<Mars />} />
         <Route path="/jupiter" element={<Jupiter />} />
         <Route path="/saturn" element={<Saturn />} />
