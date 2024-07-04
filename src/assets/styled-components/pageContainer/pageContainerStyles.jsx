@@ -69,7 +69,7 @@ const StyledPageContainer = styled.section`
       text-align: center;
 
       p {
-        width: 4300px;
+        width: 300px;
         transform: translateY(-10px);
       }
     }
