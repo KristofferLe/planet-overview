@@ -9,7 +9,7 @@ const StyledPageContainer = styled.section`
   height: 100%;
 
   @media screen and (min-width: 1024px) {
-    height: 100vh;
+    height: 950px;
   }
 
   .image-container {
